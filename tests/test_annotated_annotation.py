@@ -34,6 +34,7 @@ import pytest
 
 def test_annotated_annotation():
     # can't exactly test if the parameter is the same, so just test if it raises something
+    
     @app_commands.command()
     async def foo(interaction: discord.Interaction, param: Annotated[float, Optional[int]]):
         pass
