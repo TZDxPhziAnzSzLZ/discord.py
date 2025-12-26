@@ -46,7 +46,7 @@ from typing import (
     TypeVar,
     Union,
     overload,
-    runtime_checkable,
+    runtime_checkable
 )
 
 from .object import OLDEST_OBJECT, Object
@@ -71,7 +71,7 @@ __all__ = (
     'PrivateChannel',
     'GuildChannel',
     'Messageable',
-    'Connectable',
+    'Connectable'
 )
 
 T = TypeVar('T', bound=VoiceProtocol)
