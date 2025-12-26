@@ -52,7 +52,7 @@ __all__ = (
     'Webhook',
     'WebhookMessage',
     'PartialWebhookChannel',
-    'PartialWebhookGuild',
+    'PartialWebhookGuild'
 )
 
 _log = logging.getLogger(__name__)
